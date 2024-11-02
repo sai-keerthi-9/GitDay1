@@ -5,10 +5,10 @@ namespace Assignment_2
 {
     class Arrays_1
     {
-        public static int Average(int[] arr)
+        public static float Average(int[] arr)
         {
             int sum = 0;
-            int avg;
+            float avg;
             foreach(int i in arr)
             {
                 sum = sum + i;

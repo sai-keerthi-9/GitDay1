@@ -21,6 +21,7 @@ namespace Assignment_2
         {
             Console.WriteLine("Enter a number");
             int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Output");
             Display(a);
             Console.Read();
         }
