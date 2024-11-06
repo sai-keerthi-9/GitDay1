@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E9085E7C-16DB-4EA3-A870-FB64EF5973C9}</ProjectGuid>
+    <ProjectGuid>{030D28CD-CD99-47DB-BA4D-F50F2CA932F8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>assignment_3</RootNamespace>
-    <AssemblyName>assignment-3</AssemblyName>
+    <RootNamespace>Assessment_1</RootNamespace>
+    <AssemblyName>Assessment-1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Assignment_3.Inheritance1</StartupObject>
+    <StartupObject>Assessment_1.CountLetters</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Accounts.cs" />
-    <Compile Include="StringQuestions.cs" />
+    <Compile Include="CountLetters.cs" />
+    <Compile Include="ExchangeCharacters.cs" />
+    <Compile Include="LargestNumber.cs" />
+    <Compile Include="RemoveCharacter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SalesDetails.cs" />
-    <Compile Include="Student.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -1,0 +1,7 @@
+C:\Users\saikeerthit\Desktop\Dot Net assignments\C#\Assessments\Assessment-1\bin\Debug\Assessment-1.exe.config
+C:\Users\saikeerthit\Desktop\Dot Net assignments\C#\Assessments\Assessment-1\bin\Debug\Assessment-1.exe
+C:\Users\saikeerthit\Desktop\Dot Net assignments\C#\Assessments\Assessment-1\bin\Debug\Assessment-1.pdb
+C:\Users\saikeerthit\Desktop\Dot Net assignments\C#\Assessments\Assessment-1\obj\Debug\Assessment-1.csproj.AssemblyReference.cache
+C:\Users\saikeerthit\Desktop\Dot Net assignments\C#\Assessments\Assessment-1\obj\Debug\Assessment-1.csproj.CoreCompileInputs.cache
+C:\Users\saikeerthit\Desktop\Dot Net assignments\C#\Assessments\Assessment-1\obj\Debug\Assessment-1.exe
+C:\Users\saikeerthit\Desktop\Dot Net assignments\C#\Assessments\Assessment-1\obj\Debug\Assessment-1.pdb
