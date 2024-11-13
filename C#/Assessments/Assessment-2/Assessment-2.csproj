@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{030D28CD-CD99-47DB-BA4D-F50F2CA932F8}</ProjectGuid>
+    <ProjectGuid>{5E2E40B6-75BF-4778-A6DF-92F7EF5E8BA2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Assessment_1</RootNamespace>
-    <AssemblyName>Assessment-1</AssemblyName>
+    <RootNamespace>Assessment_2</RootNamespace>
+    <AssemblyName>Assessment-2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Assessment_1.ExchangeCharacters</StartupObject>
+    <StartupObject>Assessment_2.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,10 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CountLetters.cs" />
-    <Compile Include="ExchangeCharacters.cs" />
-    <Compile Include="LargestNumber.cs" />
-    <Compile Include="RemoveCharacter.cs" />
+    <Compile Include="Products.cs" />
+    <Compile Include="UserDefinedEcception.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
