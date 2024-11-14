@@ -1,0 +1,7 @@
+C:\Users\saikeerthit\Desktop\Dot Net assignments\C#\Assignments\Assignment-5\bin\Debug\Assignment-5.exe.config
+C:\Users\saikeerthit\Desktop\Dot Net assignments\C#\Assignments\Assignment-5\bin\Debug\Assignment-5.exe
+C:\Users\saikeerthit\Desktop\Dot Net assignments\C#\Assignments\Assignment-5\bin\Debug\Assignment-5.pdb
+C:\Users\saikeerthit\Desktop\Dot Net assignments\C#\Assignments\Assignment-5\obj\Debug\Assignment-5.csproj.AssemblyReference.cache
+C:\Users\saikeerthit\Desktop\Dot Net assignments\C#\Assignments\Assignment-5\obj\Debug\Assignment-5.csproj.CoreCompileInputs.cache
+C:\Users\saikeerthit\Desktop\Dot Net assignments\C#\Assignments\Assignment-5\obj\Debug\Assignment-5.exe
+C:\Users\saikeerthit\Desktop\Dot Net assignments\C#\Assignments\Assignment-5\obj\Debug\Assignment-5.pdb
