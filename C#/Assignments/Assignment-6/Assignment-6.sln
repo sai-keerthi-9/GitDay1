@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35325.158
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment-6", "Assignment-6.csproj", "{3B86A1B6-8A85-4B96-89B2-0F37B8BD2BD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateConcessionForTravel", "CalculateConcessionForTravel\CalculateConcessionForTravel.csproj", "{58AB4F85-3424-4F26-9E9C-C95BDE2E316B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B86A1B6-8A85-4B96-89B2-0F37B8BD2BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B86A1B6-8A85-4B96-89B2-0F37B8BD2BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B86A1B6-8A85-4B96-89B2-0F37B8BD2BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B86A1B6-8A85-4B96-89B2-0F37B8BD2BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58AB4F85-3424-4F26-9E9C-C95BDE2E316B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58AB4F85-3424-4F26-9E9C-C95BDE2E316B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58AB4F85-3424-4F26-9E9C-C95BDE2E316B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58AB4F85-3424-4F26-9E9C-C95BDE2E316B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A81FA5EE-019C-4B4D-9A45-8E059C3F7AB7}
+	EndGlobalSection
+EndGlobal
