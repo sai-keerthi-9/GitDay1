@@ -66,7 +66,10 @@ select Count(*) as 'Number of Clerks' from Employee where Job='Clerk'
 select Job,avg(Salary) [Average Salary],count(*) [No.of People] from Employee group by Job
 
 --7.List the employees with the lowest and highest salary.
-select min(Salary) as 'Lowest salary',max(Salary) as 'Highest salary' from Employee
+select EmpNo,EmpName,Salary from Employee where Salary=(select min(Salary) as 'Lowest salary' from Employee)
+or Salary=(select max(Salary) as 'Highest salary' from Employee)
+
+
 
 --8. List full details of departments that don't have any employees.
 select * from Department  where DeptNo not in(select DeptNo from Employee)
@@ -92,3 +95,6 @@ select EmpName,Salary from Employee where Salary not between 1500 and 2850
 
 --15. Find all managers who have more than 2 employees reporting to them
 select MGR_ID,count(*) from Employee group by MGR_ID having count(*)>2
+
+
+
