@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5E2E40B6-75BF-4778-A6DF-92F7EF5E8BA2}</ProjectGuid>
+    <ProjectGuid>{3CC03719-9ABF-477F-BE49-14C523FEC73F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Assessment_2</RootNamespace>
-    <AssemblyName>Assessment-2</AssemblyName>
+    <RootNamespace>Assessment_4</RootNamespace>
+    <AssemblyName>Assessment-4</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>Assessment_2.Products</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Products.cs" />
-    <Compile Include="UserDefinedEcception.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

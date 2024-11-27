@@ -70,7 +70,6 @@ select EmpNo,EmpName,Salary from Employee where Salary=(select min(Salary) as 'L
 or Salary=(select max(Salary) as 'Highest salary' from Employee)
 
 
-
 --8. List full details of departments that don't have any employees.
 select * from Department  where DeptNo not in(select DeptNo from Employee)
 

@@ -22,7 +22,7 @@ namespace Assignment_6
             var result_names = from s in str
                                where s.StartsWith("a") && s.EndsWith("m")
                                select s;
-            Console.WriteLine("The output list lis : ");
+            Console.WriteLine("The output list : ");
             foreach(var i in result_names)
             {
                 Console.WriteLine(i + " ");
