@@ -28,7 +28,8 @@ select sum(Salary) [total monthly salary of all employees] from Employee
 select AVG(Salary*12) "average annual salary" from Employee
 
 --10. Select the name, job, salary, department number of all employees except SALESMAN from department number 30.
-select EmpName,Job,Salary,DeptNo from Employee where EmpNo not in(select EmpNo from Employee where Job='Salesman' and DeptNo=30)
+select EmpName,Job,Salary,DeptNo from Employee where EmpNo not in
+(select EmpNo from Employee where Job='Salesman' and DeptNo=30)
 
 --11. List unique departments of the EMP table.
 select DeptNo,DName from Department where DeptNo in(select distinct  DeptNo from Employee)
@@ -46,6 +47,9 @@ select EmpName,Salary,Commision from Employee where Commision>Salary * 1.1
 select EmpName from Employee where Lower(EmpName) like '%l%l%' and DeptNo=30 or MGR_ID=7782
 
 --16. Display the names of employees with experience of over 30 years and under 40 yrs.Count the total number of employees. 
+
+select EmpName from Employee where DATEDIFF(year,Hire_date,getdate())>30 and DATEDIFF(year,Hire_date,getdate())<40
+
 select count(EmpName) [total number of employees]
 from Employee where DATEDIFF(year,Hire_date,getdate())>30 and DATEDIFF(year,Hire_date,getdate())<40
 
