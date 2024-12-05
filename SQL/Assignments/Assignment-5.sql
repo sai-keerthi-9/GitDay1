@@ -51,8 +51,8 @@ insert into Holidays values('2024-01-26','Republic day'),
 ('2024-08-15','Independence Day'),('2024-09-05','Teachers day'),('2024-11-14','Childerens day')
 insert into Holidays values('2024-12-05',' Holiday')
 
-delete from Holidays where holiday_date='2024-12-05'
-select * from Holidays
+--delete from Holidays where holiday_date='2024-12-05'
+--select * from Holidays
 --trigger
 create or alter trigger Restrict_Employee_Data
 on Employee
@@ -67,7 +67,7 @@ begin
 	  return
    end 
  end
- select * from Employee
+ --select * from Employee
  insert into Employee values(9999,'keerthi','developer',7788,'2020-12-21',5000,800,20)
 
  delete from Employee where EmpNo=9999
