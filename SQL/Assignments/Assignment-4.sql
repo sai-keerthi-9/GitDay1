@@ -32,7 +32,7 @@ exec Multiplication 5,10
 
 --3. Create a function to calculate the status of the student. 
 --If student score >=50 then pass, else fail. Display the data neatly
-
+use assignments
 
 --Creating students table
 create table student
