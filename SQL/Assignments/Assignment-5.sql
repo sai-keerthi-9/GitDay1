@@ -49,10 +49,10 @@ Holiday_name varchar(20)
 
 insert into Holidays values('2024-01-26','Republic day'),
 ('2024-08-15','Independence Day'),('2024-09-05','Teachers day'),('2024-11-14','Childerens day')
-insert into Holidays values('2024-12-05',' Holiday')
+insert into Holidays values('2024-12-06','Today is  Holiday')
 
---delete from Holidays where holiday_date='2024-12-05'
---select * from Holidays
+
+select * from Holidays
 --trigger
 create or alter trigger Restrict_Employee_Data
 on Employee
@@ -64,12 +64,14 @@ begin
   if @holiday_name is not null
   begin
       raiserror('you cannot manipulate data due to %s',16,1,@holiday_name)
-	  return
+	  rollback
    end 
  end
- --select * from Employee
+select * from Employee
+
+--Testing triggers
  insert into Employee values(9999,'keerthi','developer',7788,'2020-12-21',5000,800,20)
 
- delete from Employee where EmpNo=9999
+ delete from Employee where EmpNo=7788
 
- update Employee set Salary=9000 where EmpNo=7788
+ update Employee set Salary=3000 where EmpNo=7788
