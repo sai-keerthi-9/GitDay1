@@ -21,6 +21,7 @@ namespace CC_6_ADO.Net_
                 con.Open();
                 using (SqlCommand cmd = new SqlCommand("Product_Details", con))
                 {
+                    cmd.CommandType = CommandType.StoredProcedure;
                     //input for procedure
 
                     cmd.Parameters.Add(new SqlParameter("@pname", "p1"));
@@ -35,6 +36,7 @@ namespace CC_6_ADO.Net_
                     cmd.ExecuteNonQuery();
                     int product_id = Convert.ToInt32(cmd.Parameters["@pid"].Value);
                     int discount = Convert.ToInt32(cmd.Parameters["@discount"].Value);
+
                     Console.WriteLine($"Product ID : {product_id}  ,  Discount Price : {discount}");
 
                 }
