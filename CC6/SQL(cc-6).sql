@@ -22,7 +22,7 @@ returns int
 as
 begin
 declare @duration int 
-select @duration=DATEDIFF(DAY,Startdate,EndDate) from Course_Details
+select @duration=DATEDIFF(DAY,@startdate,@enddate) from Course_Details
 return @duration
 end
 
