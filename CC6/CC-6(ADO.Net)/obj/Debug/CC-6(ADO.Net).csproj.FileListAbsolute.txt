@@ -1,0 +1,7 @@
+C:\Users\saikeerthit\Desktop\Dot Net assignments\CC6\CC-6(ADO.Net)\bin\Debug\CC-6(ADO.Net).exe.config
+C:\Users\saikeerthit\Desktop\Dot Net assignments\CC6\CC-6(ADO.Net)\bin\Debug\CC-6(ADO.Net).exe
+C:\Users\saikeerthit\Desktop\Dot Net assignments\CC6\CC-6(ADO.Net)\bin\Debug\CC-6(ADO.Net).pdb
+C:\Users\saikeerthit\Desktop\Dot Net assignments\CC6\CC-6(ADO.Net)\obj\Debug\CC-6(ADO.Net).csproj.AssemblyReference.cache
+C:\Users\saikeerthit\Desktop\Dot Net assignments\CC6\CC-6(ADO.Net)\obj\Debug\CC-6(ADO.Net).csproj.CoreCompileInputs.cache
+C:\Users\saikeerthit\Desktop\Dot Net assignments\CC6\CC-6(ADO.Net)\obj\Debug\CC-6(ADO.Net).exe
+C:\Users\saikeerthit\Desktop\Dot Net assignments\CC6\CC-6(ADO.Net)\obj\Debug\CC-6(ADO.Net).pdb
