@@ -1,0 +1,7 @@
+C:\Users\saikeerthit\Desktop\Mini Project\Mini_Project\bin\Debug\Mini_Project.exe.config
+C:\Users\saikeerthit\Desktop\Mini Project\Mini_Project\bin\Debug\Mini_Project.exe
+C:\Users\saikeerthit\Desktop\Mini Project\Mini_Project\bin\Debug\Mini_Project.pdb
+C:\Users\saikeerthit\Desktop\Mini Project\Mini_Project\obj\Debug\Mini_Project.csproj.AssemblyReference.cache
+C:\Users\saikeerthit\Desktop\Mini Project\Mini_Project\obj\Debug\Mini_Project.csproj.CoreCompileInputs.cache
+C:\Users\saikeerthit\Desktop\Mini Project\Mini_Project\obj\Debug\Mini_Project.exe
+C:\Users\saikeerthit\Desktop\Mini Project\Mini_Project\obj\Debug\Mini_Project.pdb
