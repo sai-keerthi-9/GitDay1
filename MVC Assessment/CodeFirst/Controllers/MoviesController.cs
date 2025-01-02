@@ -65,7 +65,7 @@ namespace CodeFirst.Controllers
         // Display movies by year
         public ActionResult MoviesByYear(int year)
         {
-            var movies = _movieRepository.GetAllMoviesByYear(year);
+            var movies = movieRepository.GetAllMoviesByYear(year);
             return View(movies);
         }
     }
